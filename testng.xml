@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.qa.test.development.listeners.Listeners"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Learning/AppiumFramework/src/test/java/com/qa/test">
+        <parameter name="platformName" value="Android"/>
+        <parameter name="platformVersion" value="9"/>
+        <parameter name="deviceUDID" value="ce10171ab374340704"/>
+        <classes>
+           <!--
+            <class name="com.qa.test.testCases.LoginTestcase"/>
+           -->
+            <class name="com.qa.test.testCases.ProductScreenTestCase"/>
+        </classes>
+    </test>
+</suite>
