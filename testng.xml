@@ -8,11 +8,10 @@
         <parameter name="platformName" value="Android"/>
         <parameter name="platformVersion" value="9"/>
         <parameter name="deviceUDID" value="ce10171ab374340704"/>
+        <parameter name="deviceName" value="Samsung Galaxy S8+"/>
         <classes>
-           <!--
-            <class name="com.qa.test.testCases.LoginTestcase"/>
-           -->
-            <class name="com.qa.test.testCases.ProductScreenTestCase"/>
+           <!-- <class name="com.qa.test.testCases.LoginTestcase"/>
+           --> <class name="com.qa.test.testCases.ProductScreenTestCase"/>
         </classes>
     </test>
 </suite>
